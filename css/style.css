@@ -2305,8 +2305,8 @@ ul, ol {
 }
 .header-ctn{
   /* display: none; */
-  margin-top: -96px;
-  margin-right: -25px;
+  margin-top: -102px;
+  margin-right: -35px;
   /* width: 100%; */
 }
 
@@ -2374,7 +2374,7 @@ ul, ol {
     margin-top: 10px;
 }
 .header-logo .logo img {
-        width: 35%;
+        width: 50%;
         margin-left: 5%;
     }
     #search-btn-991{
