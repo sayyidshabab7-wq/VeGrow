@@ -1,5 +1,5 @@
 /*
-Template Name: Electro - HTML Ecommerce Template
+Template Name: VeGrow - HTML Ecommerce Template
 Author: yaminncco
 
 Colors:
@@ -718,7 +718,7 @@ textarea.input {
 
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   .header-ctn .menu-toggle {
     display: inline-block;
   }
@@ -792,6 +792,10 @@ textarea.input {
 #top-header {
   display:none;
 }
+    #top-header .header-links.pull-right {
+        
+        display: none;
+    }
 .shop .shop-body h3 {
     font-size: 100%;
 }
@@ -2230,8 +2234,15 @@ textarea.input {
 /*=========================================================
 	13 -> RESPONSIVE
 ===========================================================*/
+@media only screen and (max-width: 2201px) {
+  #search-btn-480{
+      display: none;
+    }
+}
 
-@media only screen and (max-width: 1201px) {}
+@media only screen and (max-width: 1201px) {
+  
+}
 
 @media only screen and (max-width: 991px) {
   #top-header .header-links.pull-left {
@@ -2259,6 +2270,7 @@ textarea.input {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  
 }
 
 @media only screen and (max-width: 767px) {
@@ -2293,17 +2305,41 @@ ul, ol {
 }
 .header-ctn{
   /* display: none; */
-  margin-top: -115px;
-  margin-right: -20px;
+  margin-top: -96px;
+  margin-right: -25px;
+  /* width: 100%; */
 }
 
 .header-ctn>div+div {
-    display: none;
-}
-.header-ctn>div {
-    display: none;
+    /* display: none; */
+    width: 20px;
+    margin-left: 25px;
     
 }
+.header-ctn>div {
+    /* display: none; */
+    width: 20px;
+    margin-left: 140px;
+    
+    
+}
+.header-ctn>div>a>i {
+    /* display: block; */
+    font-size: 15px;
+    width: 10px;
+}
+.header-ctn>div>a {
+    display: block;
+    position: relative;
+    width: 50px;
+    text-align: center;
+    color: #FFF;
+}
+.menu-toggle{
+  width: 10px;
+  margin-right: 50px;
+}
+
 
 .header-ctn>div>a>span {
     font-size: 12px;
@@ -2314,6 +2350,42 @@ ul, ol {
     display: none;
 }
 
- 
+.header-search form .input-select {
+  display: none;
 
+}
+.header-search form .input {
+    width: calc(100% - 80px);
+    margin-right: -4px;
+    
+    border-radius: 0px 15px 15px 0px;
+}
+ .header-search form .search-btn {
+    height: 40px;
+    width: 50px;
+    background: #00de86;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px 1px 0px 15px;
+}
+.header-search {
+    padding: 0px 0px;
+    margin-top: 10px;
+}
+.header-logo .logo img {
+        width: 35%;
+        margin-left: 5%;
+    }
+    #search-btn-991{
+      display: none;
+    }
+#search-btn-480{
+      display:-webkit-inline-box;
+    }
+
+#responsive-nav {
+  margin-top: 120px;
+}    
+    
 }
