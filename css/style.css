@@ -2285,8 +2285,16 @@ textarea.input {
 
 @media only screen and (max-width: 480px) {
   [class*='col-xs'] {
-    width: 50%;
+    width: 33.3%;
+    
   }
+  .shop{
+    margin: 8px 0px;
+  }
+  .section {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
   .store-grid {
     float: none;
     margin-top: 10px;
@@ -2297,16 +2305,27 @@ textarea.input {
   }
   .shop .shop-body .cta-btn {
       padding: 3px;
-    font-size: 45%;
+    font-size: 40%;
 }
+.shop .shop-body {
+  padding: 8px;
+}
+.shop .shop-body h3 {
+   font-size: 77%;
+}
+
 ul, ol {
     
     font-size: 12px;
 }
+
+/*----------------------------*\
+	Navbar
+\*----------------------------*/
 .header-ctn{
   /* display: none; */
   margin-top: -102px;
-  margin-right: -35px;
+  /* margin-right: 35px; */
   /* width: 100%; */
 }
 
@@ -2326,12 +2345,13 @@ ul, ol {
 .header-ctn>div>a>i {
     /* display: block; */
     font-size: 15px;
-    width: 10px;
+    /* width: 10px; */
 }
 .header-ctn>div>a {
     display: block;
     position: relative;
-    width: 50px;
+    width: 20px;
+    margin-left: 30px;
     text-align: center;
     color: #FFF;
 }
@@ -2387,5 +2407,10 @@ ul, ol {
 #responsive-nav {
   margin-top: 120px;
 }    
+
+
+
+
+
     
 }
